@@ -1,0 +1,5 @@
+repo github
+https://github.com/jasuke-dev/jasuke-dev.github.io
+
+github page
+https://jasuke-dev.github.io
