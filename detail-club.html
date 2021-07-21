@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Premier Update</title>
+    <title>Football Pocket</title>
     <meta name="description" content="Free Football Apps"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="css/materialize.min.css">
@@ -19,13 +19,20 @@
 <nav class="ungu" role="navigation">
     <div class="nav-wrapper container">
         <a href="./index.html" class="brand-logo" id="logo-container">Premier Update</a>
-        <a href="#" class="sidenav-trigger" data-target="nav-mobile">&#9776;</a>
+        <a href="./index.html" class="sidenav-trigger" data-target="nav-mobile">
+          <i class="material-icons">arrow_back</i>
+        </a>
         <ul class="topnav right hide-on-med-and-down"></ul>
         <ul class="sidenav" id="nav-mobile"></ul>
     </div>
 </nav>
 
-<div class="container" id="body-content">
+<div id="profil"></div>
+<div class="container" id="body-content"></div>
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large ungu" id="save">
+    <i class="large material-icons">save</i>
+    </a>
 </div>
 <!-- footer -->
 <footer class="page-footer ungu">
@@ -39,18 +46,13 @@
       </div>
     </div>
 </footer>
+
 <script src="js/materialize.min.js"></script>
-<script src="js/reg-push.js"></script>
-<script src="js/notif.js"></script>
 <script src="js/reg-sw.js"></script>
 <script src="js/api.js"></script>
-<script src="js/standing.js"></script>
 <script src="js/idb.js"></script>
 <script src="js/db.js"></script>
 <script src="js/detail.js"></script>
-<script src="js/nav.js"></script>
-<script src="js/button.js"></script>
-
-
+<script src="js/saved.js"></script>
 </body>
 </html>
